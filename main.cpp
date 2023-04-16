@@ -47,7 +47,9 @@ int main()
    sorteia();
    colocarPalavra();
    duplicarMatriz();
+   _setcursortype(_NOCURSOR);
    mostrarInicio();
+   _setcursortype(_NORMALCURSOR);
 
    do
    {
